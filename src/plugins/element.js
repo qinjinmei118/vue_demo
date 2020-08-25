@@ -2,6 +2,7 @@ import Vue from 'vue'
 import { Button,Form ,FormItem,Input} from 'element-ui'
 import {Container,Header,Aside,Main,Footer} from 'element-ui'
 import {Avatar,Dropdown,DropdownItem,DropdownMenu,Menu,Submenu,MenuItem,MenuItemGroup} from 'element-ui'
+import {Card,Row,Col} from 'element-ui'
 import { Message,MessageBox } from 'element-ui';
 
 Vue.prototype.$message=Message
@@ -23,3 +24,6 @@ Vue.use(Menu)
 Vue.use(MenuItem)
 Vue.use(Submenu)
 Vue.use(MenuItemGroup)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)

@@ -191,7 +191,7 @@
     justify-content: space-between;
     line-height: 60px;
     text-align: center;
-
+    box-shadow: 0 0 5px #23b7e6;
     .collapse_home {
       justify-items: center;
       display: inline-block;
@@ -281,7 +281,7 @@
     margin-left: 20px;
   }
   .el-main {
-    background-color: #d6cfd3;
+    background-color: #f9f9f9;
   }
 
 </style>
