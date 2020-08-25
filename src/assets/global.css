@@ -11,3 +11,7 @@ ul{
 a{
     text-decoration: none;
 }
+.el-card{
+    box-shadow: 0 2px 2px #d9e5ec !important;
+    margin: -10px;
+}
