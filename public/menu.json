@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "title": "工作首页",
+    "icon": "fa fa-television",
+    "children": [
+      {
+        "id": "0-1",
+        "submenu": "机构管理",
+        "icon": "fa fa-handshake-o"
+      },
+      {
+        "id": "0-2",
+        "submenu": "人事管理",
+        "icon": "  fa fa-user"
+
+      },
+      {
+        "id": "0-3",
+        "submenu": "招聘管理",
+        "icon": "  fa fa-users",
+        "children": [
+          {
+            "id": "0-3-1",
+            "subItem": "招聘发布"
+          },
+          {
+            "id" : "0-3-2",
+            "subItem": "招聘评定"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "服务大厅",
+    "icon": "fa fa-sliders",
+    "children": [
+      {
+        "id": "1-1",
+        "submenu": "详细咨询"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "待办事项",
+    "icon": "fa fa-pencil-square"
+  },
+  {
+    "id": 3,
+    "title": "消息提醒",
+    "icon": "fa fa-envelope"
+  }
+]
